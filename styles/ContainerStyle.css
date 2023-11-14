@@ -1,0 +1,16 @@
+.template1{
+    background-color: black;
+    height:400px;
+    width:200px;
+    position: absolute;
+    top:20%;
+    border-radius: 20px;
+}
+.border{
+    border:2px solid transparent;
+    border-radius: 10px;
+}
+.border:hover{
+    border:2px solid grey;
+    transform: scale(1.1);
+}

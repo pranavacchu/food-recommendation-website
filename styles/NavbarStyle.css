@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+} 
+.navlogo{
+    height:60px;
+    width: 220px;
+    position: relative;
+    top:0;
+    border-radius: 10px;
+}
+.navlog {
+    position: relative;
+    width: 120%;
+} 
+.navbar{
+    height:70px;
+    background-color:rgb(12, 1, 1);
+    color:white;
+    display: flex;   
+}
+.house{
+    align-items: center;
+    margin-left: 0%;
+    position: relative;
+    top:18px;
+    font-size: 150%;
+    
+}
+.navhouse{
+    position: relative;
+    left:60%;
+    width:100px;
+    background-color: black;
+    border-radius: 10px;
+}
+.housetext{
+    display: flex;
+    font-size: 90%;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    margin-left: 30%;
+    top:20px;
+    
+}
+
+.navlocation{
+    position: relative;
+    left:76%;
+    width:80px;
+    border-radius: 10px;  
+}
+.location{
+    align-items: center;
+    margin-left: 0%;
+    position: relative;
+    top:18px;
+    font-size: 150%;    
+}
+.india{
+    display: flex;
+    font-size: 90%;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    margin-left: 27%;
+    top:20px;
+    
+}
+.border{
+    border:2px solid transparent;
+    border-radius: 10px;
+}
+.border:hover{
+    border:2px solid grey;
+    transform: scale(1.1);
+}
+.message{
+    align-items: center;
+    margin-left: 0%;
+    position: relative;
+    top:18px;
+    font-size: 150%;
+    
+}
+.navmessage{
+    position: relative;
+    left:43%;
+    width:100px;
+    background-color: black;
+    border-radius: 10px;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.home{
+    
+    min-height:100vh;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+    
+}
+
+.logo{
+    width:700px;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+    left: 7%;
+    bottom: 100px;
+
+}
+
+.headerContainer{
+    width:100%;
+    position:absolute;
+    top:20%;
+    text-align: center ;
+}
+
+.headerContainer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+    top: 130px;
+    font-size: 20px;
+    
+    
+}
+
+.info {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.text{
+    display: inline-block;
+}
+
+
+.home .bttn{
+    border-radius: 5px;
+    width: 320px;
+    background: rgb(137, 45, 45);
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    top:20%;
+    right: 23%;
+    
+}
+.headerContainer:hover .bttn{
+    transform: scale(1.1);
+}
